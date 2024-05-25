@@ -1,8 +1,21 @@
-# React + Vite
+# Dropdown Menu Component
+A simple dropdown menu component created with React + Vite. It accepts an array of strings as items to populate the dropdown menu, which can be changed in the `App.jsx` file.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Deployment
 
-Currently, two official plugins are available:
+To install and use locally,
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. `git clone` this repository to a local directory
+2. In the terminal, `cd` to the repository directory and run
+
+```bash
+npm i
+```
+
+3. Then run the application with:
+
+```bash
+npm run dev
+```
+
+4. Your browser will open to [http://localhost:5173/](http://localhost:5173/)
